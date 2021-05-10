@@ -13,3 +13,8 @@ spec:
         kind: HelmRepository
         name: podinfo
   interval: 5m
+  values:
+    service:
+      type: LoadBalancer
+    ui:
+      color: "#FF0000"
