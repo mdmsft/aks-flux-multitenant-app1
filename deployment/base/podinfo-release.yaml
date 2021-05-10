@@ -16,6 +16,5 @@ spec:
   values:
     service:
       type: LoadBalancer
-      httpPort: 80
     ui:
       color: "#FF0000"
