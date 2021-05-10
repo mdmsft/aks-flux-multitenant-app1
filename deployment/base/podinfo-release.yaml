@@ -16,5 +16,6 @@ spec:
   values:
     service:
       type: LoadBalancer
+      externalPort: 80
     ui:
       color: "#FF0000"
